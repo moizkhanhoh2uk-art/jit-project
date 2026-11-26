@@ -1,0 +1,20 @@
+HOW TO RUN THE PROJECT (Python 3.11 or 3.12)
+Open a terminal in the folder containing app.py.
+WINDOWS:   py -m venv .venv  &&  .venv\Scripts\activate
+MAC/LINUX: python3 -m venv .venv  &&  source .venv/bin/activate
+Then:
+  python -m pip install -r requirements.txt
+  python evaluate.py            (about 1 minute; rewrites results/)
+  python -m pytest -q -rx       (expect: 49 passed, 4 xfailed)
+  python -m streamlit run app.py   (open http://localhost:8501)
+Do not double-click app.py. Internet is needed only to install packages.
+Exact versions used to produce results/: requirements-lock.txt and results/environment.json.
+Streamlit was not installed where results/ were produced; run the demo on your own computer
+and capture the screenshots for Appendix C yourself.
+
+DEMO SCRIPT
+1 Keyword, "stop the instance", allow StopInstances, approved, time 50 in [0,100): ALLOW.
+2 Untick Approved: DENY. Re-tick and set time 100: DENY (expiry is exclusive).
+3 "start the instance" with only StopInstances allowed: DENY.
+4 Allow Start+Stop, type "do not stop the instance": ALLOW of StopInstances - checker cannot read meaning.
+5 Type "please wipe the stored document" with Keyword: forced answer GetObject; move the slider above 0: REJECT.
