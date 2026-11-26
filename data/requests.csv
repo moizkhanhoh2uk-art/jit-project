@@ -1,0 +1,257 @@
+id,text,label,family,split
+d000,Please download the object now,s3:GetObject,s3:GetObject-0,train
+d001,Could you download the object for this task,s3:GetObject,s3:GetObject-0,train
+d002,I need you to download the object today,s3:GetObject,s3:GetObject-0,train
+d003,download the object for the approved maintenance,s3:GetObject,s3:GetObject-0,train
+d004,Please read the file now,s3:GetObject,s3:GetObject-1,train
+d005,Could you read the file for this task,s3:GetObject,s3:GetObject-1,train
+d006,I need you to read the file today,s3:GetObject,s3:GetObject-1,train
+d007,read the file for the approved maintenance,s3:GetObject,s3:GetObject-1,train
+d008,Please fetch the object now,s3:GetObject,s3:GetObject-2,train
+d009,Could you fetch the object for this task,s3:GetObject,s3:GetObject-2,train
+d010,I need you to fetch the object today,s3:GetObject,s3:GetObject-2,train
+d011,fetch the object for the approved maintenance,s3:GetObject,s3:GetObject-2,train
+d012,Please retrieve the file now,s3:GetObject,s3:GetObject-3,train
+d013,Could you retrieve the file for this task,s3:GetObject,s3:GetObject-3,train
+d014,I need you to retrieve the file today,s3:GetObject,s3:GetObject-3,train
+d015,retrieve the file for the approved maintenance,s3:GetObject,s3:GetObject-3,train
+d016,Please get the object now,s3:GetObject,s3:GetObject-4,train
+d017,Could you get the object for this task,s3:GetObject,s3:GetObject-4,train
+d018,I need you to get the object today,s3:GetObject,s3:GetObject-4,train
+d019,get the object for the approved maintenance,s3:GetObject,s3:GetObject-4,train
+d020,Please open the stored file now,s3:GetObject,s3:GetObject-5,train
+d021,Could you open the stored file for this task,s3:GetObject,s3:GetObject-5,train
+d022,I need you to open the stored file today,s3:GetObject,s3:GetObject-5,train
+d023,open the stored file for the approved maintenance,s3:GetObject,s3:GetObject-5,train
+d024,Please copy the object to my laptop now,s3:GetObject,s3:GetObject-6,test
+d025,Could you copy the object to my laptop for this task,s3:GetObject,s3:GetObject-6,test
+d026,I need you to copy the object to my laptop today,s3:GetObject,s3:GetObject-6,test
+d027,copy the object to my laptop for the approved maintenance,s3:GetObject,s3:GetObject-6,test
+d028,Please obtain the stored document now,s3:GetObject,s3:GetObject-7,test
+d029,Could you obtain the stored document for this task,s3:GetObject,s3:GetObject-7,test
+d030,I need you to obtain the stored document today,s3:GetObject,s3:GetObject-7,test
+d031,obtain the stored document for the approved maintenance,s3:GetObject,s3:GetObject-7,test
+d032,Please upload the object now,s3:PutObject,s3:PutObject-0,train
+d033,Could you upload the object for this task,s3:PutObject,s3:PutObject-0,train
+d034,I need you to upload the object today,s3:PutObject,s3:PutObject-0,train
+d035,upload the object for the approved maintenance,s3:PutObject,s3:PutObject-0,train
+d036,Please write the file now,s3:PutObject,s3:PutObject-1,train
+d037,Could you write the file for this task,s3:PutObject,s3:PutObject-1,train
+d038,I need you to write the file today,s3:PutObject,s3:PutObject-1,train
+d039,write the file for the approved maintenance,s3:PutObject,s3:PutObject-1,train
+d040,Please store the object now,s3:PutObject,s3:PutObject-2,train
+d041,Could you store the object for this task,s3:PutObject,s3:PutObject-2,train
+d042,I need you to store the object today,s3:PutObject,s3:PutObject-2,train
+d043,store the object for the approved maintenance,s3:PutObject,s3:PutObject-2,train
+d044,Please save the file now,s3:PutObject,s3:PutObject-3,train
+d045,Could you save the file for this task,s3:PutObject,s3:PutObject-3,train
+d046,I need you to save the file today,s3:PutObject,s3:PutObject-3,train
+d047,save the file for the approved maintenance,s3:PutObject,s3:PutObject-3,train
+d048,Please put the object now,s3:PutObject,s3:PutObject-4,train
+d049,Could you put the object for this task,s3:PutObject,s3:PutObject-4,train
+d050,I need you to put the object today,s3:PutObject,s3:PutObject-4,train
+d051,put the object for the approved maintenance,s3:PutObject,s3:PutObject-4,train
+d052,Please send the file to storage now,s3:PutObject,s3:PutObject-5,train
+d053,Could you send the file to storage for this task,s3:PutObject,s3:PutObject-5,train
+d054,I need you to send the file to storage today,s3:PutObject,s3:PutObject-5,train
+d055,send the file to storage for the approved maintenance,s3:PutObject,s3:PutObject-5,train
+d056,Please transfer a document into storage now,s3:PutObject,s3:PutObject-6,test
+d057,Could you transfer a document into storage for this task,s3:PutObject,s3:PutObject-6,test
+d058,I need you to transfer a document into storage today,s3:PutObject,s3:PutObject-6,test
+d059,transfer a document into storage for the approved maintenance,s3:PutObject,s3:PutObject-6,test
+d060,Please deposit the new document now,s3:PutObject,s3:PutObject-7,test
+d061,Could you deposit the new document for this task,s3:PutObject,s3:PutObject-7,test
+d062,I need you to deposit the new document today,s3:PutObject,s3:PutObject-7,test
+d063,deposit the new document for the approved maintenance,s3:PutObject,s3:PutObject-7,test
+d064,Please delete the object now,s3:DeleteObject,s3:DeleteObject-0,train
+d065,Could you delete the object for this task,s3:DeleteObject,s3:DeleteObject-0,train
+d066,I need you to delete the object today,s3:DeleteObject,s3:DeleteObject-0,train
+d067,delete the object for the approved maintenance,s3:DeleteObject,s3:DeleteObject-0,train
+d068,Please remove the file now,s3:DeleteObject,s3:DeleteObject-1,train
+d069,Could you remove the file for this task,s3:DeleteObject,s3:DeleteObject-1,train
+d070,I need you to remove the file today,s3:DeleteObject,s3:DeleteObject-1,train
+d071,remove the file for the approved maintenance,s3:DeleteObject,s3:DeleteObject-1,train
+d072,Please erase the object now,s3:DeleteObject,s3:DeleteObject-2,train
+d073,Could you erase the object for this task,s3:DeleteObject,s3:DeleteObject-2,train
+d074,I need you to erase the object today,s3:DeleteObject,s3:DeleteObject-2,train
+d075,erase the object for the approved maintenance,s3:DeleteObject,s3:DeleteObject-2,train
+d076,Please discard the file now,s3:DeleteObject,s3:DeleteObject-3,train
+d077,Could you discard the file for this task,s3:DeleteObject,s3:DeleteObject-3,train
+d078,I need you to discard the file today,s3:DeleteObject,s3:DeleteObject-3,train
+d079,discard the file for the approved maintenance,s3:DeleteObject,s3:DeleteObject-3,train
+d080,Please destroy the object now,s3:DeleteObject,s3:DeleteObject-4,train
+d081,Could you destroy the object for this task,s3:DeleteObject,s3:DeleteObject-4,train
+d082,I need you to destroy the object today,s3:DeleteObject,s3:DeleteObject-4,train
+d083,destroy the object for the approved maintenance,s3:DeleteObject,s3:DeleteObject-4,train
+d084,Please purge the stored file now,s3:DeleteObject,s3:DeleteObject-5,train
+d085,Could you purge the stored file for this task,s3:DeleteObject,s3:DeleteObject-5,train
+d086,I need you to purge the stored file today,s3:DeleteObject,s3:DeleteObject-5,train
+d087,purge the stored file for the approved maintenance,s3:DeleteObject,s3:DeleteObject-5,train
+d088,Please eliminate the stored document now,s3:DeleteObject,s3:DeleteObject-6,test
+d089,Could you eliminate the stored document for this task,s3:DeleteObject,s3:DeleteObject-6,test
+d090,I need you to eliminate the stored document today,s3:DeleteObject,s3:DeleteObject-6,test
+d091,eliminate the stored document for the approved maintenance,s3:DeleteObject,s3:DeleteObject-6,test
+d092,Please wipe the stored document now,s3:DeleteObject,s3:DeleteObject-7,test
+d093,Could you wipe the stored document for this task,s3:DeleteObject,s3:DeleteObject-7,test
+d094,I need you to wipe the stored document today,s3:DeleteObject,s3:DeleteObject-7,test
+d095,wipe the stored document for the approved maintenance,s3:DeleteObject,s3:DeleteObject-7,test
+d096,Please list the bucket contents now,s3:ListBucket,s3:ListBucket-0,train
+d097,Could you list the bucket contents for this task,s3:ListBucket,s3:ListBucket-0,train
+d098,I need you to list the bucket contents today,s3:ListBucket,s3:ListBucket-0,train
+d099,list the bucket contents for the approved maintenance,s3:ListBucket,s3:ListBucket-0,train
+d100,Please show the bucket contents now,s3:ListBucket,s3:ListBucket-1,train
+d101,Could you show the bucket contents for this task,s3:ListBucket,s3:ListBucket-1,train
+d102,I need you to show the bucket contents today,s3:ListBucket,s3:ListBucket-1,train
+d103,show the bucket contents for the approved maintenance,s3:ListBucket,s3:ListBucket-1,train
+d104,Please enumerate the bucket now,s3:ListBucket,s3:ListBucket-2,train
+d105,Could you enumerate the bucket for this task,s3:ListBucket,s3:ListBucket-2,train
+d106,I need you to enumerate the bucket today,s3:ListBucket,s3:ListBucket-2,train
+d107,enumerate the bucket for the approved maintenance,s3:ListBucket,s3:ListBucket-2,train
+d108,Please display the bucket contents now,s3:ListBucket,s3:ListBucket-3,train
+d109,Could you display the bucket contents for this task,s3:ListBucket,s3:ListBucket-3,train
+d110,I need you to display the bucket contents today,s3:ListBucket,s3:ListBucket-3,train
+d111,display the bucket contents for the approved maintenance,s3:ListBucket,s3:ListBucket-3,train
+d112,Please browse the bucket now,s3:ListBucket,s3:ListBucket-4,train
+d113,Could you browse the bucket for this task,s3:ListBucket,s3:ListBucket-4,train
+d114,I need you to browse the bucket today,s3:ListBucket,s3:ListBucket-4,train
+d115,browse the bucket for the approved maintenance,s3:ListBucket,s3:ListBucket-4,train
+d116,Please list all storage keys now,s3:ListBucket,s3:ListBucket-5,train
+d117,Could you list all storage keys for this task,s3:ListBucket,s3:ListBucket-5,train
+d118,I need you to list all storage keys today,s3:ListBucket,s3:ListBucket-5,train
+d119,list all storage keys for the approved maintenance,s3:ListBucket,s3:ListBucket-5,train
+d120,Please tell me which documents exist now,s3:ListBucket,s3:ListBucket-6,test
+d121,Could you tell me which documents exist for this task,s3:ListBucket,s3:ListBucket-6,test
+d122,I need you to tell me which documents exist today,s3:ListBucket,s3:ListBucket-6,test
+d123,tell me which documents exist for the approved maintenance,s3:ListBucket,s3:ListBucket-6,test
+d124,Please give an inventory of stored files now,s3:ListBucket,s3:ListBucket-7,test
+d125,Could you give an inventory of stored files for this task,s3:ListBucket,s3:ListBucket-7,test
+d126,I need you to give an inventory of stored files today,s3:ListBucket,s3:ListBucket-7,test
+d127,give an inventory of stored files for the approved maintenance,s3:ListBucket,s3:ListBucket-7,test
+d128,Please describe the instance now,ec2:DescribeInstances,ec2:DescribeInstances-0,train
+d129,Could you describe the instance for this task,ec2:DescribeInstances,ec2:DescribeInstances-0,train
+d130,I need you to describe the instance today,ec2:DescribeInstances,ec2:DescribeInstances-0,train
+d131,describe the instance for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances-0,train
+d132,Please show the instance status now,ec2:DescribeInstances,ec2:DescribeInstances-1,train
+d133,Could you show the instance status for this task,ec2:DescribeInstances,ec2:DescribeInstances-1,train
+d134,I need you to show the instance status today,ec2:DescribeInstances,ec2:DescribeInstances-1,train
+d135,show the instance status for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances-1,train
+d136,Please inspect the instance now,ec2:DescribeInstances,ec2:DescribeInstances-2,train
+d137,Could you inspect the instance for this task,ec2:DescribeInstances,ec2:DescribeInstances-2,train
+d138,I need you to inspect the instance today,ec2:DescribeInstances,ec2:DescribeInstances-2,train
+d139,inspect the instance for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances-2,train
+d140,Please display instance details now,ec2:DescribeInstances,ec2:DescribeInstances-3,train
+d141,Could you display instance details for this task,ec2:DescribeInstances,ec2:DescribeInstances-3,train
+d142,I need you to display instance details today,ec2:DescribeInstances,ec2:DescribeInstances-3,train
+d143,display instance details for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances-3,train
+d144,Please check the instance state now,ec2:DescribeInstances,ec2:DescribeInstances-4,train
+d145,Could you check the instance state for this task,ec2:DescribeInstances,ec2:DescribeInstances-4,train
+d146,I need you to check the instance state today,ec2:DescribeInstances,ec2:DescribeInstances-4,train
+d147,check the instance state for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances-4,train
+d148,Please report the server status now,ec2:DescribeInstances,ec2:DescribeInstances-5,train
+d149,Could you report the server status for this task,ec2:DescribeInstances,ec2:DescribeInstances-5,train
+d150,I need you to report the server status today,ec2:DescribeInstances,ec2:DescribeInstances-5,train
+d151,report the server status for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances-5,train
+d152,Please tell me whether the server is running now,ec2:DescribeInstances,ec2:DescribeInstances-6,test
+d153,Could you tell me whether the server is running for this task,ec2:DescribeInstances,ec2:DescribeInstances-6,test
+d154,I need you to tell me whether the server is running today,ec2:DescribeInstances,ec2:DescribeInstances-6,test
+d155,tell me whether the server is running for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances-6,test
+d156,Please give information about the virtual machine now,ec2:DescribeInstances,ec2:DescribeInstances-7,test
+d157,Could you give information about the virtual machine for this task,ec2:DescribeInstances,ec2:DescribeInstances-7,test
+d158,I need you to give information about the virtual machine today,ec2:DescribeInstances,ec2:DescribeInstances-7,test
+d159,give information about the virtual machine for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances-7,test
+d160,Please start the instance now,ec2:StartInstances,ec2:StartInstances-0,train
+d161,Could you start the instance for this task,ec2:StartInstances,ec2:StartInstances-0,train
+d162,I need you to start the instance today,ec2:StartInstances,ec2:StartInstances-0,train
+d163,start the instance for the approved maintenance,ec2:StartInstances,ec2:StartInstances-0,train
+d164,Please launch the stopped instance now,ec2:StartInstances,ec2:StartInstances-1,train
+d165,Could you launch the stopped instance for this task,ec2:StartInstances,ec2:StartInstances-1,train
+d166,I need you to launch the stopped instance today,ec2:StartInstances,ec2:StartInstances-1,train
+d167,launch the stopped instance for the approved maintenance,ec2:StartInstances,ec2:StartInstances-1,train
+d168,Please power on the instance now,ec2:StartInstances,ec2:StartInstances-2,train
+d169,Could you power on the instance for this task,ec2:StartInstances,ec2:StartInstances-2,train
+d170,I need you to power on the instance today,ec2:StartInstances,ec2:StartInstances-2,train
+d171,power on the instance for the approved maintenance,ec2:StartInstances,ec2:StartInstances-2,train
+d172,Please boot the instance now,ec2:StartInstances,ec2:StartInstances-3,train
+d173,Could you boot the instance for this task,ec2:StartInstances,ec2:StartInstances-3,train
+d174,I need you to boot the instance today,ec2:StartInstances,ec2:StartInstances-3,train
+d175,boot the instance for the approved maintenance,ec2:StartInstances,ec2:StartInstances-3,train
+d176,Please activate the instance now,ec2:StartInstances,ec2:StartInstances-4,train
+d177,Could you activate the instance for this task,ec2:StartInstances,ec2:StartInstances-4,train
+d178,I need you to activate the instance today,ec2:StartInstances,ec2:StartInstances-4,train
+d179,activate the instance for the approved maintenance,ec2:StartInstances,ec2:StartInstances-4,train
+d180,Please turn on the server now,ec2:StartInstances,ec2:StartInstances-5,train
+d181,Could you turn on the server for this task,ec2:StartInstances,ec2:StartInstances-5,train
+d182,I need you to turn on the server today,ec2:StartInstances,ec2:StartInstances-5,train
+d183,turn on the server for the approved maintenance,ec2:StartInstances,ec2:StartInstances-5,train
+d184,Please bring the virtual machine online now,ec2:StartInstances,ec2:StartInstances-6,test
+d185,Could you bring the virtual machine online for this task,ec2:StartInstances,ec2:StartInstances-6,test
+d186,I need you to bring the virtual machine online today,ec2:StartInstances,ec2:StartInstances-6,test
+d187,bring the virtual machine online for the approved maintenance,ec2:StartInstances,ec2:StartInstances-6,test
+d188,Please wake the stopped server now,ec2:StartInstances,ec2:StartInstances-7,test
+d189,Could you wake the stopped server for this task,ec2:StartInstances,ec2:StartInstances-7,test
+d190,I need you to wake the stopped server today,ec2:StartInstances,ec2:StartInstances-7,test
+d191,wake the stopped server for the approved maintenance,ec2:StartInstances,ec2:StartInstances-7,test
+d192,Please reboot the instance now,ec2:RebootInstances,ec2:RebootInstances-0,train
+d193,Could you reboot the instance for this task,ec2:RebootInstances,ec2:RebootInstances-0,train
+d194,I need you to reboot the instance today,ec2:RebootInstances,ec2:RebootInstances-0,train
+d195,reboot the instance for the approved maintenance,ec2:RebootInstances,ec2:RebootInstances-0,train
+d196,Please restart the instance now,ec2:RebootInstances,ec2:RebootInstances-1,train
+d197,Could you restart the instance for this task,ec2:RebootInstances,ec2:RebootInstances-1,train
+d198,I need you to restart the instance today,ec2:RebootInstances,ec2:RebootInstances-1,train
+d199,restart the instance for the approved maintenance,ec2:RebootInstances,ec2:RebootInstances-1,train
+d200,Please power cycle the instance now,ec2:RebootInstances,ec2:RebootInstances-2,train
+d201,Could you power cycle the instance for this task,ec2:RebootInstances,ec2:RebootInstances-2,train
+d202,I need you to power cycle the instance today,ec2:RebootInstances,ec2:RebootInstances-2,train
+d203,power cycle the instance for the approved maintenance,ec2:RebootInstances,ec2:RebootInstances-2,train
+d204,Please relaunch the running instance now,ec2:RebootInstances,ec2:RebootInstances-3,train
+d205,Could you relaunch the running instance for this task,ec2:RebootInstances,ec2:RebootInstances-3,train
+d206,I need you to relaunch the running instance today,ec2:RebootInstances,ec2:RebootInstances-3,train
+d207,relaunch the running instance for the approved maintenance,ec2:RebootInstances,ec2:RebootInstances-3,train
+d208,Please reset the instance now,ec2:RebootInstances,ec2:RebootInstances-4,train
+d209,Could you reset the instance for this task,ec2:RebootInstances,ec2:RebootInstances-4,train
+d210,I need you to reset the instance today,ec2:RebootInstances,ec2:RebootInstances-4,train
+d211,reset the instance for the approved maintenance,ec2:RebootInstances,ec2:RebootInstances-4,train
+d212,Please restart the server now,ec2:RebootInstances,ec2:RebootInstances-5,train
+d213,Could you restart the server for this task,ec2:RebootInstances,ec2:RebootInstances-5,train
+d214,I need you to restart the server today,ec2:RebootInstances,ec2:RebootInstances-5,train
+d215,restart the server for the approved maintenance,ec2:RebootInstances,ec2:RebootInstances-5,train
+d216,Please cycle the virtual machine power now,ec2:RebootInstances,ec2:RebootInstances-6,test
+d217,Could you cycle the virtual machine power for this task,ec2:RebootInstances,ec2:RebootInstances-6,test
+d218,I need you to cycle the virtual machine power today,ec2:RebootInstances,ec2:RebootInstances-6,test
+d219,cycle the virtual machine power for the approved maintenance,ec2:RebootInstances,ec2:RebootInstances-6,test
+d220,Please give the server a fresh boot now,ec2:RebootInstances,ec2:RebootInstances-7,test
+d221,Could you give the server a fresh boot for this task,ec2:RebootInstances,ec2:RebootInstances-7,test
+d222,I need you to give the server a fresh boot today,ec2:RebootInstances,ec2:RebootInstances-7,test
+d223,give the server a fresh boot for the approved maintenance,ec2:RebootInstances,ec2:RebootInstances-7,test
+d224,Please stop the instance now,ec2:StopInstances,ec2:StopInstances-0,train
+d225,Could you stop the instance for this task,ec2:StopInstances,ec2:StopInstances-0,train
+d226,I need you to stop the instance today,ec2:StopInstances,ec2:StopInstances-0,train
+d227,stop the instance for the approved maintenance,ec2:StopInstances,ec2:StopInstances-0,train
+d228,Please shutdown the instance now,ec2:StopInstances,ec2:StopInstances-1,train
+d229,Could you shutdown the instance for this task,ec2:StopInstances,ec2:StopInstances-1,train
+d230,I need you to shutdown the instance today,ec2:StopInstances,ec2:StopInstances-1,train
+d231,shutdown the instance for the approved maintenance,ec2:StopInstances,ec2:StopInstances-1,train
+d232,Please power off the instance now,ec2:StopInstances,ec2:StopInstances-2,train
+d233,Could you power off the instance for this task,ec2:StopInstances,ec2:StopInstances-2,train
+d234,I need you to power off the instance today,ec2:StopInstances,ec2:StopInstances-2,train
+d235,power off the instance for the approved maintenance,ec2:StopInstances,ec2:StopInstances-2,train
+d236,Please halt the instance now,ec2:StopInstances,ec2:StopInstances-3,train
+d237,Could you halt the instance for this task,ec2:StopInstances,ec2:StopInstances-3,train
+d238,I need you to halt the instance today,ec2:StopInstances,ec2:StopInstances-3,train
+d239,halt the instance for the approved maintenance,ec2:StopInstances,ec2:StopInstances-3,train
+d240,Please deactivate the instance now,ec2:StopInstances,ec2:StopInstances-4,train
+d241,Could you deactivate the instance for this task,ec2:StopInstances,ec2:StopInstances-4,train
+d242,I need you to deactivate the instance today,ec2:StopInstances,ec2:StopInstances-4,train
+d243,deactivate the instance for the approved maintenance,ec2:StopInstances,ec2:StopInstances-4,train
+d244,Please turn off the server now,ec2:StopInstances,ec2:StopInstances-5,train
+d245,Could you turn off the server for this task,ec2:StopInstances,ec2:StopInstances-5,train
+d246,I need you to turn off the server today,ec2:StopInstances,ec2:StopInstances-5,train
+d247,turn off the server for the approved maintenance,ec2:StopInstances,ec2:StopInstances-5,train
+d248,Please bring the virtual machine offline now,ec2:StopInstances,ec2:StopInstances-6,test
+d249,Could you bring the virtual machine offline for this task,ec2:StopInstances,ec2:StopInstances-6,test
+d250,I need you to bring the virtual machine offline today,ec2:StopInstances,ec2:StopInstances-6,test
+d251,bring the virtual machine offline for the approved maintenance,ec2:StopInstances,ec2:StopInstances-6,test
+d252,Please shut the server down now,ec2:StopInstances,ec2:StopInstances-7,test
+d253,Could you shut the server down for this task,ec2:StopInstances,ec2:StopInstances-7,test
+d254,I need you to shut the server down today,ec2:StopInstances,ec2:StopInstances-7,test
+d255,shut the server down for the approved maintenance,ec2:StopInstances,ec2:StopInstances-7,test
