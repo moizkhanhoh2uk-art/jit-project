@@ -1,0 +1,11 @@
+STATUS (22 Nov 2026)
+Done: experiment re-evaluated (grouped CV, CIs, permutation test); tests that fail on defects; report rewritten; viva pack.
+STUDENT MUST DO BEFORE SUBMISSION
+1 Run evaluate.py and pytest on your own computer; confirm the numbers match the report (seed fixed).
+2 Capture real screenshots (Appendix C) from your own run.
+3 Write section 8 (critical reflection) in your own words from your own experience.
+4 Complete the AI-use acknowledgement and the university declaration truthfully.
+5 Add a real repository / shared-folder URL (Appendix D). None has been invented.
+6 Confirm final word limit, deadline and template on Brightspace; fill the Project Process Template after each meeting.
+7 Check every reference against the original source (some could not be opened while writing).
+8 Ask your supervisor to approve: (a) the extra grouped-CV analysis, (b) the abstention extension, (c) whether a stronger ML model is expected.
