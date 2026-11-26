@@ -1,0 +1,15 @@
+{
+  "python": "3.13.18",
+  "packages": {
+    "scikit-learn": "1.9.1",
+    "pandas": "3.0.5",
+    "numpy": "2.5.3",
+    "matplotlib": "3.11.2",
+    "pytest": "9.1.1",
+    "streamlit": "not installed in this run"
+  },
+  "seed": 42,
+  "bootstrap": 2000,
+  "permutations": 200,
+  "dataset_sha256": "6bc0f06a77d2944024d3c849fac2c83bdc3c16a1dc9cac7f3b1f9c87bea767e7"
+}

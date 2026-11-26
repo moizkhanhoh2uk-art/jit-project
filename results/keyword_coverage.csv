@@ -1,0 +1,4 @@
+scope,n,lexicon_coverage,forced_accuracy,accuracy_when_covered
+train,192,0.9583333333333334,0.9583333333333334,1.0
+test,64,0.0625,0.125,0.0
+all_256_cv,256,0.734375,0.75,0.9787234042553191

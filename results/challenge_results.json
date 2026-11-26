@@ -1,0 +1,272 @@
+[
+  {
+    "method":"Keyword",
+    "category":"negation",
+    "text":"Do not delete the object",
+    "intended_actions":[
+
+    ],
+    "note":"Explicit prohibition",
+    "predicted_action":"s3:DeleteObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"negation",
+    "text":"Do not stop the instance",
+    "intended_actions":[
+
+    ],
+    "note":"Explicit prohibition",
+    "predicted_action":"ec2:StopInstances",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"negation",
+    "text":"Do not reboot the instance; leave it running",
+    "intended_actions":[
+
+    ],
+    "note":"Explicit prohibition",
+    "predicted_action":"ec2:RebootInstances",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"unseen",
+    "text":"Bring the virtual machine online",
+    "intended_actions":[
+      "ec2:StartInstances"
+    ],
+    "note":"Paraphrase",
+    "predicted_action":"s3:GetObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"unseen",
+    "text":"Obtain the stored document",
+    "intended_actions":[
+      "s3:GetObject"
+    ],
+    "note":"Paraphrase",
+    "predicted_action":"s3:GetObject",
+    "single_action_suitable":true
+  },
+  {
+    "method":"Keyword",
+    "category":"unsupported",
+    "text":"Create a new storage bucket",
+    "intended_actions":[
+
+    ],
+    "note":"Outside eight actions",
+    "predicted_action":"s3:GetObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"unsupported",
+    "text":"Terminate the instance permanently",
+    "intended_actions":[
+
+    ],
+    "note":"Terminate differs from stop",
+    "predicted_action":"s3:GetObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"unsupported",
+    "text":"Encrypt all stored files",
+    "intended_actions":[
+
+    ],
+    "note":"Outside eight actions",
+    "predicted_action":"s3:GetObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"multi",
+    "text":"Download the object and delete the object",
+    "intended_actions":[
+      "s3:GetObject",
+      "s3:DeleteObject"
+    ],
+    "note":"Two actions required",
+    "predicted_action":"s3:GetObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"multi",
+    "text":"Start the instance then reboot the instance",
+    "intended_actions":[
+      "ec2:StartInstances",
+      "ec2:RebootInstances"
+    ],
+    "note":"Two actions required",
+    "predicted_action":"ec2:StartInstances",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"multi",
+    "text":"Upload the object then list the bucket",
+    "intended_actions":[
+      "s3:PutObject",
+      "s3:ListBucket"
+    ],
+    "note":"Two actions required",
+    "predicted_action":"s3:PutObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"Keyword",
+    "category":"negation",
+    "text":"List the bucket but do not delete anything",
+    "intended_actions":[
+      "s3:ListBucket"
+    ],
+    "note":"Negated secondary action",
+    "predicted_action":"s3:DeleteObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"negation",
+    "text":"Do not delete the object",
+    "intended_actions":[
+
+    ],
+    "note":"Explicit prohibition",
+    "predicted_action":"s3:DeleteObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"negation",
+    "text":"Do not stop the instance",
+    "intended_actions":[
+
+    ],
+    "note":"Explicit prohibition",
+    "predicted_action":"ec2:StopInstances",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"negation",
+    "text":"Do not reboot the instance; leave it running",
+    "intended_actions":[
+
+    ],
+    "note":"Explicit prohibition",
+    "predicted_action":"ec2:RebootInstances",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"unseen",
+    "text":"Bring the virtual machine online",
+    "intended_actions":[
+      "ec2:StartInstances"
+    ],
+    "note":"Paraphrase",
+    "predicted_action":"s3:GetObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"unseen",
+    "text":"Obtain the stored document",
+    "intended_actions":[
+      "s3:GetObject"
+    ],
+    "note":"Paraphrase",
+    "predicted_action":"s3:GetObject",
+    "single_action_suitable":true
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"unsupported",
+    "text":"Create a new storage bucket",
+    "intended_actions":[
+
+    ],
+    "note":"Outside eight actions",
+    "predicted_action":"s3:ListBucket",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"unsupported",
+    "text":"Terminate the instance permanently",
+    "intended_actions":[
+
+    ],
+    "note":"Terminate differs from stop",
+    "predicted_action":"ec2:StopInstances",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"unsupported",
+    "text":"Encrypt all stored files",
+    "intended_actions":[
+
+    ],
+    "note":"Outside eight actions",
+    "predicted_action":"s3:ListBucket",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"multi",
+    "text":"Download the object and delete the object",
+    "intended_actions":[
+      "s3:GetObject",
+      "s3:DeleteObject"
+    ],
+    "note":"Two actions required",
+    "predicted_action":"s3:GetObject",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"multi",
+    "text":"Start the instance then reboot the instance",
+    "intended_actions":[
+      "ec2:StartInstances",
+      "ec2:RebootInstances"
+    ],
+    "note":"Two actions required",
+    "predicted_action":"ec2:StartInstances",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"multi",
+    "text":"Upload the object then list the bucket",
+    "intended_actions":[
+      "s3:PutObject",
+      "s3:ListBucket"
+    ],
+    "note":"Two actions required",
+    "predicted_action":"s3:ListBucket",
+    "single_action_suitable":false
+  },
+  {
+    "method":"TFIDF_LR",
+    "category":"negation",
+    "text":"List the bucket but do not delete anything",
+    "intended_actions":[
+      "s3:ListBucket"
+    ],
+    "note":"Negated secondary action",
+    "predicted_action":"s3:ListBucket",
+    "single_action_suitable":true
+  }
+]

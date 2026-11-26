@@ -1,0 +1,7 @@
+............................................xxxx.....                    [100%]
+=========================== short test summary info ============================
+XFAIL tests/test_validation.py::test_keyword_understands_negation - LIMITATION: negation is not understood by the keyword baseline
+XFAIL tests/test_validation.py::test_tfidf_understands_negation - LIMITATION: TF-IDF bag-of-words ignores 'do not'
+XFAIL tests/test_validation.py::test_single_label_represents_multi_intent - LIMITATION: forced single label cannot represent two actions
+XFAIL tests/test_validation.py::test_keyword_handles_unseen_synonym - LIMITATION: synonym outside the lexicon ('wipe') is missed by the forced keyword baseline
+49 passed, 4 xfailed in 1.71s

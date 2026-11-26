@@ -1,0 +1,3 @@
+method,false_allow,false_deny,wrong_prediction,wrong_prediction_blocked,allowed_wrong_action,legitimate_support
+Keyword,20,92,392,352,40,16
+TFIDF_LR,27,67,329,275,54,34

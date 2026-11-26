@@ -1,0 +1,193 @@
+method,id,text,true_action,predicted_action,correct
+Keyword,d024,Please copy the object to my laptop now,s3:GetObject,s3:GetObject,True
+Keyword,d025,Could you copy the object to my laptop for this task,s3:GetObject,s3:GetObject,True
+Keyword,d026,I need you to copy the object to my laptop today,s3:GetObject,s3:GetObject,True
+Keyword,d027,copy the object to my laptop for the approved maintenance,s3:GetObject,s3:GetObject,True
+Keyword,d028,Please obtain the stored document now,s3:GetObject,s3:GetObject,True
+Keyword,d029,Could you obtain the stored document for this task,s3:GetObject,s3:GetObject,True
+Keyword,d030,I need you to obtain the stored document today,s3:GetObject,s3:GetObject,True
+Keyword,d031,obtain the stored document for the approved maintenance,s3:GetObject,s3:GetObject,True
+Keyword,d056,Please transfer a document into storage now,s3:PutObject,s3:GetObject,False
+Keyword,d057,Could you transfer a document into storage for this task,s3:PutObject,s3:GetObject,False
+Keyword,d058,I need you to transfer a document into storage today,s3:PutObject,s3:GetObject,False
+Keyword,d059,transfer a document into storage for the approved maintenance,s3:PutObject,s3:GetObject,False
+Keyword,d060,Please deposit the new document now,s3:PutObject,s3:GetObject,False
+Keyword,d061,Could you deposit the new document for this task,s3:PutObject,s3:GetObject,False
+Keyword,d062,I need you to deposit the new document today,s3:PutObject,s3:GetObject,False
+Keyword,d063,deposit the new document for the approved maintenance,s3:PutObject,s3:GetObject,False
+Keyword,d088,Please eliminate the stored document now,s3:DeleteObject,s3:GetObject,False
+Keyword,d089,Could you eliminate the stored document for this task,s3:DeleteObject,s3:GetObject,False
+Keyword,d090,I need you to eliminate the stored document today,s3:DeleteObject,s3:GetObject,False
+Keyword,d091,eliminate the stored document for the approved maintenance,s3:DeleteObject,s3:GetObject,False
+Keyword,d092,Please wipe the stored document now,s3:DeleteObject,s3:GetObject,False
+Keyword,d093,Could you wipe the stored document for this task,s3:DeleteObject,s3:GetObject,False
+Keyword,d094,I need you to wipe the stored document today,s3:DeleteObject,s3:GetObject,False
+Keyword,d095,wipe the stored document for the approved maintenance,s3:DeleteObject,s3:GetObject,False
+Keyword,d120,Please tell me which documents exist now,s3:ListBucket,s3:GetObject,False
+Keyword,d121,Could you tell me which documents exist for this task,s3:ListBucket,s3:GetObject,False
+Keyword,d122,I need you to tell me which documents exist today,s3:ListBucket,s3:GetObject,False
+Keyword,d123,tell me which documents exist for the approved maintenance,s3:ListBucket,s3:GetObject,False
+Keyword,d124,Please give an inventory of stored files now,s3:ListBucket,s3:GetObject,False
+Keyword,d125,Could you give an inventory of stored files for this task,s3:ListBucket,s3:GetObject,False
+Keyword,d126,I need you to give an inventory of stored files today,s3:ListBucket,s3:GetObject,False
+Keyword,d127,give an inventory of stored files for the approved maintenance,s3:ListBucket,s3:GetObject,False
+Keyword,d152,Please tell me whether the server is running now,ec2:DescribeInstances,s3:GetObject,False
+Keyword,d153,Could you tell me whether the server is running for this task,ec2:DescribeInstances,s3:GetObject,False
+Keyword,d154,I need you to tell me whether the server is running today,ec2:DescribeInstances,s3:GetObject,False
+Keyword,d155,tell me whether the server is running for the approved maintenance,ec2:DescribeInstances,s3:GetObject,False
+Keyword,d156,Please give information about the virtual machine now,ec2:DescribeInstances,s3:GetObject,False
+Keyword,d157,Could you give information about the virtual machine for this task,ec2:DescribeInstances,s3:GetObject,False
+Keyword,d158,I need you to give information about the virtual machine today,ec2:DescribeInstances,s3:GetObject,False
+Keyword,d159,give information about the virtual machine for the approved maintenance,ec2:DescribeInstances,s3:GetObject,False
+Keyword,d184,Please bring the virtual machine online now,ec2:StartInstances,s3:GetObject,False
+Keyword,d185,Could you bring the virtual machine online for this task,ec2:StartInstances,s3:GetObject,False
+Keyword,d186,I need you to bring the virtual machine online today,ec2:StartInstances,s3:GetObject,False
+Keyword,d187,bring the virtual machine online for the approved maintenance,ec2:StartInstances,s3:GetObject,False
+Keyword,d188,Please wake the stopped server now,ec2:StartInstances,s3:GetObject,False
+Keyword,d189,Could you wake the stopped server for this task,ec2:StartInstances,s3:GetObject,False
+Keyword,d190,I need you to wake the stopped server today,ec2:StartInstances,s3:GetObject,False
+Keyword,d191,wake the stopped server for the approved maintenance,ec2:StartInstances,s3:GetObject,False
+Keyword,d216,Please cycle the virtual machine power now,ec2:RebootInstances,s3:GetObject,False
+Keyword,d217,Could you cycle the virtual machine power for this task,ec2:RebootInstances,s3:GetObject,False
+Keyword,d218,I need you to cycle the virtual machine power today,ec2:RebootInstances,s3:GetObject,False
+Keyword,d219,cycle the virtual machine power for the approved maintenance,ec2:RebootInstances,s3:GetObject,False
+Keyword,d220,Please give the server a fresh boot now,ec2:RebootInstances,ec2:StartInstances,False
+Keyword,d221,Could you give the server a fresh boot for this task,ec2:RebootInstances,ec2:StartInstances,False
+Keyword,d222,I need you to give the server a fresh boot today,ec2:RebootInstances,ec2:StartInstances,False
+Keyword,d223,give the server a fresh boot for the approved maintenance,ec2:RebootInstances,ec2:StartInstances,False
+Keyword,d248,Please bring the virtual machine offline now,ec2:StopInstances,s3:GetObject,False
+Keyword,d249,Could you bring the virtual machine offline for this task,ec2:StopInstances,s3:GetObject,False
+Keyword,d250,I need you to bring the virtual machine offline today,ec2:StopInstances,s3:GetObject,False
+Keyword,d251,bring the virtual machine offline for the approved maintenance,ec2:StopInstances,s3:GetObject,False
+Keyword,d252,Please shut the server down now,ec2:StopInstances,s3:GetObject,False
+Keyword,d253,Could you shut the server down for this task,ec2:StopInstances,s3:GetObject,False
+Keyword,d254,I need you to shut the server down today,ec2:StopInstances,s3:GetObject,False
+Keyword,d255,shut the server down for the approved maintenance,ec2:StopInstances,s3:GetObject,False
+TFIDF_LR,d024,Please copy the object to my laptop now,s3:GetObject,s3:PutObject,False
+TFIDF_LR,d025,Could you copy the object to my laptop for this task,s3:GetObject,s3:PutObject,False
+TFIDF_LR,d026,I need you to copy the object to my laptop today,s3:GetObject,s3:PutObject,False
+TFIDF_LR,d027,copy the object to my laptop for the approved maintenance,s3:GetObject,s3:PutObject,False
+TFIDF_LR,d028,Please obtain the stored document now,s3:GetObject,s3:GetObject,True
+TFIDF_LR,d029,Could you obtain the stored document for this task,s3:GetObject,s3:GetObject,True
+TFIDF_LR,d030,I need you to obtain the stored document today,s3:GetObject,s3:GetObject,True
+TFIDF_LR,d031,obtain the stored document for the approved maintenance,s3:GetObject,s3:GetObject,True
+TFIDF_LR,d056,Please transfer a document into storage now,s3:PutObject,s3:PutObject,True
+TFIDF_LR,d057,Could you transfer a document into storage for this task,s3:PutObject,s3:PutObject,True
+TFIDF_LR,d058,I need you to transfer a document into storage today,s3:PutObject,s3:PutObject,True
+TFIDF_LR,d059,transfer a document into storage for the approved maintenance,s3:PutObject,s3:PutObject,True
+TFIDF_LR,d060,Please deposit the new document now,s3:PutObject,s3:GetObject,False
+TFIDF_LR,d061,Could you deposit the new document for this task,s3:PutObject,s3:GetObject,False
+TFIDF_LR,d062,I need you to deposit the new document today,s3:PutObject,s3:PutObject,True
+TFIDF_LR,d063,deposit the new document for the approved maintenance,s3:PutObject,s3:DeleteObject,False
+TFIDF_LR,d088,Please eliminate the stored document now,s3:DeleteObject,s3:GetObject,False
+TFIDF_LR,d089,Could you eliminate the stored document for this task,s3:DeleteObject,s3:GetObject,False
+TFIDF_LR,d090,I need you to eliminate the stored document today,s3:DeleteObject,s3:GetObject,False
+TFIDF_LR,d091,eliminate the stored document for the approved maintenance,s3:DeleteObject,s3:GetObject,False
+TFIDF_LR,d092,Please wipe the stored document now,s3:DeleteObject,s3:GetObject,False
+TFIDF_LR,d093,Could you wipe the stored document for this task,s3:DeleteObject,s3:GetObject,False
+TFIDF_LR,d094,I need you to wipe the stored document today,s3:DeleteObject,s3:GetObject,False
+TFIDF_LR,d095,wipe the stored document for the approved maintenance,s3:DeleteObject,s3:GetObject,False
+TFIDF_LR,d120,Please tell me which documents exist now,s3:ListBucket,ec2:DescribeInstances,False
+TFIDF_LR,d121,Could you tell me which documents exist for this task,s3:ListBucket,ec2:DescribeInstances,False
+TFIDF_LR,d122,I need you to tell me which documents exist today,s3:ListBucket,s3:PutObject,False
+TFIDF_LR,d123,tell me which documents exist for the approved maintenance,s3:ListBucket,s3:GetObject,False
+TFIDF_LR,d124,Please give an inventory of stored files now,s3:ListBucket,s3:GetObject,False
+TFIDF_LR,d125,Could you give an inventory of stored files for this task,s3:ListBucket,s3:GetObject,False
+TFIDF_LR,d126,I need you to give an inventory of stored files today,s3:ListBucket,s3:GetObject,False
+TFIDF_LR,d127,give an inventory of stored files for the approved maintenance,s3:ListBucket,s3:GetObject,False
+TFIDF_LR,d152,Please tell me whether the server is running now,ec2:DescribeInstances,ec2:RebootInstances,False
+TFIDF_LR,d153,Could you tell me whether the server is running for this task,ec2:DescribeInstances,ec2:RebootInstances,False
+TFIDF_LR,d154,I need you to tell me whether the server is running today,ec2:DescribeInstances,ec2:RebootInstances,False
+TFIDF_LR,d155,tell me whether the server is running for the approved maintenance,ec2:DescribeInstances,ec2:RebootInstances,False
+TFIDF_LR,d156,Please give information about the virtual machine now,ec2:DescribeInstances,s3:GetObject,False
+TFIDF_LR,d157,Could you give information about the virtual machine for this task,ec2:DescribeInstances,s3:GetObject,False
+TFIDF_LR,d158,I need you to give information about the virtual machine today,ec2:DescribeInstances,s3:PutObject,False
+TFIDF_LR,d159,give information about the virtual machine for the approved maintenance,ec2:DescribeInstances,s3:DeleteObject,False
+TFIDF_LR,d184,Please bring the virtual machine online now,ec2:StartInstances,s3:GetObject,False
+TFIDF_LR,d185,Could you bring the virtual machine online for this task,ec2:StartInstances,s3:GetObject,False
+TFIDF_LR,d186,I need you to bring the virtual machine online today,ec2:StartInstances,s3:PutObject,False
+TFIDF_LR,d187,bring the virtual machine online for the approved maintenance,ec2:StartInstances,s3:DeleteObject,False
+TFIDF_LR,d188,Please wake the stopped server now,ec2:StartInstances,ec2:StartInstances,True
+TFIDF_LR,d189,Could you wake the stopped server for this task,ec2:StartInstances,ec2:StartInstances,True
+TFIDF_LR,d190,I need you to wake the stopped server today,ec2:StartInstances,ec2:StartInstances,True
+TFIDF_LR,d191,wake the stopped server for the approved maintenance,ec2:StartInstances,ec2:StartInstances,True
+TFIDF_LR,d216,Please cycle the virtual machine power now,ec2:RebootInstances,ec2:RebootInstances,True
+TFIDF_LR,d217,Could you cycle the virtual machine power for this task,ec2:RebootInstances,ec2:RebootInstances,True
+TFIDF_LR,d218,I need you to cycle the virtual machine power today,ec2:RebootInstances,ec2:RebootInstances,True
+TFIDF_LR,d219,cycle the virtual machine power for the approved maintenance,ec2:RebootInstances,ec2:RebootInstances,True
+TFIDF_LR,d220,Please give the server a fresh boot now,ec2:RebootInstances,ec2:StartInstances,False
+TFIDF_LR,d221,Could you give the server a fresh boot for this task,ec2:RebootInstances,ec2:StartInstances,False
+TFIDF_LR,d222,I need you to give the server a fresh boot today,ec2:RebootInstances,ec2:StartInstances,False
+TFIDF_LR,d223,give the server a fresh boot for the approved maintenance,ec2:RebootInstances,ec2:StartInstances,False
+TFIDF_LR,d248,Please bring the virtual machine offline now,ec2:StopInstances,s3:GetObject,False
+TFIDF_LR,d249,Could you bring the virtual machine offline for this task,ec2:StopInstances,s3:GetObject,False
+TFIDF_LR,d250,I need you to bring the virtual machine offline today,ec2:StopInstances,s3:PutObject,False
+TFIDF_LR,d251,bring the virtual machine offline for the approved maintenance,ec2:StopInstances,s3:DeleteObject,False
+TFIDF_LR,d252,Please shut the server down now,ec2:StopInstances,ec2:RebootInstances,False
+TFIDF_LR,d253,Could you shut the server down for this task,ec2:StopInstances,ec2:RebootInstances,False
+TFIDF_LR,d254,I need you to shut the server down today,ec2:StopInstances,ec2:RebootInstances,False
+TFIDF_LR,d255,shut the server down for the approved maintenance,ec2:StopInstances,ec2:RebootInstances,False
+Majority_baseline,d024,Please copy the object to my laptop now,s3:GetObject,ec2:DescribeInstances,False
+Majority_baseline,d025,Could you copy the object to my laptop for this task,s3:GetObject,ec2:DescribeInstances,False
+Majority_baseline,d026,I need you to copy the object to my laptop today,s3:GetObject,ec2:DescribeInstances,False
+Majority_baseline,d027,copy the object to my laptop for the approved maintenance,s3:GetObject,ec2:DescribeInstances,False
+Majority_baseline,d028,Please obtain the stored document now,s3:GetObject,ec2:DescribeInstances,False
+Majority_baseline,d029,Could you obtain the stored document for this task,s3:GetObject,ec2:DescribeInstances,False
+Majority_baseline,d030,I need you to obtain the stored document today,s3:GetObject,ec2:DescribeInstances,False
+Majority_baseline,d031,obtain the stored document for the approved maintenance,s3:GetObject,ec2:DescribeInstances,False
+Majority_baseline,d056,Please transfer a document into storage now,s3:PutObject,ec2:DescribeInstances,False
+Majority_baseline,d057,Could you transfer a document into storage for this task,s3:PutObject,ec2:DescribeInstances,False
+Majority_baseline,d058,I need you to transfer a document into storage today,s3:PutObject,ec2:DescribeInstances,False
+Majority_baseline,d059,transfer a document into storage for the approved maintenance,s3:PutObject,ec2:DescribeInstances,False
+Majority_baseline,d060,Please deposit the new document now,s3:PutObject,ec2:DescribeInstances,False
+Majority_baseline,d061,Could you deposit the new document for this task,s3:PutObject,ec2:DescribeInstances,False
+Majority_baseline,d062,I need you to deposit the new document today,s3:PutObject,ec2:DescribeInstances,False
+Majority_baseline,d063,deposit the new document for the approved maintenance,s3:PutObject,ec2:DescribeInstances,False
+Majority_baseline,d088,Please eliminate the stored document now,s3:DeleteObject,ec2:DescribeInstances,False
+Majority_baseline,d089,Could you eliminate the stored document for this task,s3:DeleteObject,ec2:DescribeInstances,False
+Majority_baseline,d090,I need you to eliminate the stored document today,s3:DeleteObject,ec2:DescribeInstances,False
+Majority_baseline,d091,eliminate the stored document for the approved maintenance,s3:DeleteObject,ec2:DescribeInstances,False
+Majority_baseline,d092,Please wipe the stored document now,s3:DeleteObject,ec2:DescribeInstances,False
+Majority_baseline,d093,Could you wipe the stored document for this task,s3:DeleteObject,ec2:DescribeInstances,False
+Majority_baseline,d094,I need you to wipe the stored document today,s3:DeleteObject,ec2:DescribeInstances,False
+Majority_baseline,d095,wipe the stored document for the approved maintenance,s3:DeleteObject,ec2:DescribeInstances,False
+Majority_baseline,d120,Please tell me which documents exist now,s3:ListBucket,ec2:DescribeInstances,False
+Majority_baseline,d121,Could you tell me which documents exist for this task,s3:ListBucket,ec2:DescribeInstances,False
+Majority_baseline,d122,I need you to tell me which documents exist today,s3:ListBucket,ec2:DescribeInstances,False
+Majority_baseline,d123,tell me which documents exist for the approved maintenance,s3:ListBucket,ec2:DescribeInstances,False
+Majority_baseline,d124,Please give an inventory of stored files now,s3:ListBucket,ec2:DescribeInstances,False
+Majority_baseline,d125,Could you give an inventory of stored files for this task,s3:ListBucket,ec2:DescribeInstances,False
+Majority_baseline,d126,I need you to give an inventory of stored files today,s3:ListBucket,ec2:DescribeInstances,False
+Majority_baseline,d127,give an inventory of stored files for the approved maintenance,s3:ListBucket,ec2:DescribeInstances,False
+Majority_baseline,d152,Please tell me whether the server is running now,ec2:DescribeInstances,ec2:DescribeInstances,True
+Majority_baseline,d153,Could you tell me whether the server is running for this task,ec2:DescribeInstances,ec2:DescribeInstances,True
+Majority_baseline,d154,I need you to tell me whether the server is running today,ec2:DescribeInstances,ec2:DescribeInstances,True
+Majority_baseline,d155,tell me whether the server is running for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances,True
+Majority_baseline,d156,Please give information about the virtual machine now,ec2:DescribeInstances,ec2:DescribeInstances,True
+Majority_baseline,d157,Could you give information about the virtual machine for this task,ec2:DescribeInstances,ec2:DescribeInstances,True
+Majority_baseline,d158,I need you to give information about the virtual machine today,ec2:DescribeInstances,ec2:DescribeInstances,True
+Majority_baseline,d159,give information about the virtual machine for the approved maintenance,ec2:DescribeInstances,ec2:DescribeInstances,True
+Majority_baseline,d184,Please bring the virtual machine online now,ec2:StartInstances,ec2:DescribeInstances,False
+Majority_baseline,d185,Could you bring the virtual machine online for this task,ec2:StartInstances,ec2:DescribeInstances,False
+Majority_baseline,d186,I need you to bring the virtual machine online today,ec2:StartInstances,ec2:DescribeInstances,False
+Majority_baseline,d187,bring the virtual machine online for the approved maintenance,ec2:StartInstances,ec2:DescribeInstances,False
+Majority_baseline,d188,Please wake the stopped server now,ec2:StartInstances,ec2:DescribeInstances,False
+Majority_baseline,d189,Could you wake the stopped server for this task,ec2:StartInstances,ec2:DescribeInstances,False
+Majority_baseline,d190,I need you to wake the stopped server today,ec2:StartInstances,ec2:DescribeInstances,False
+Majority_baseline,d191,wake the stopped server for the approved maintenance,ec2:StartInstances,ec2:DescribeInstances,False
+Majority_baseline,d216,Please cycle the virtual machine power now,ec2:RebootInstances,ec2:DescribeInstances,False
+Majority_baseline,d217,Could you cycle the virtual machine power for this task,ec2:RebootInstances,ec2:DescribeInstances,False
+Majority_baseline,d218,I need you to cycle the virtual machine power today,ec2:RebootInstances,ec2:DescribeInstances,False
+Majority_baseline,d219,cycle the virtual machine power for the approved maintenance,ec2:RebootInstances,ec2:DescribeInstances,False
+Majority_baseline,d220,Please give the server a fresh boot now,ec2:RebootInstances,ec2:DescribeInstances,False
+Majority_baseline,d221,Could you give the server a fresh boot for this task,ec2:RebootInstances,ec2:DescribeInstances,False
+Majority_baseline,d222,I need you to give the server a fresh boot today,ec2:RebootInstances,ec2:DescribeInstances,False
+Majority_baseline,d223,give the server a fresh boot for the approved maintenance,ec2:RebootInstances,ec2:DescribeInstances,False
+Majority_baseline,d248,Please bring the virtual machine offline now,ec2:StopInstances,ec2:DescribeInstances,False
+Majority_baseline,d249,Could you bring the virtual machine offline for this task,ec2:StopInstances,ec2:DescribeInstances,False
+Majority_baseline,d250,I need you to bring the virtual machine offline today,ec2:StopInstances,ec2:DescribeInstances,False
+Majority_baseline,d251,bring the virtual machine offline for the approved maintenance,ec2:StopInstances,ec2:DescribeInstances,False
+Majority_baseline,d252,Please shut the server down now,ec2:StopInstances,ec2:DescribeInstances,False
+Majority_baseline,d253,Could you shut the server down for this task,ec2:StopInstances,ec2:DescribeInstances,False
+Majority_baseline,d254,I need you to shut the server down today,ec2:StopInstances,ec2:DescribeInstances,False
+Majority_baseline,d255,shut the server down for the approved maintenance,ec2:StopInstances,ec2:DescribeInstances,False

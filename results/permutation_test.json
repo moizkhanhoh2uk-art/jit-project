@@ -1,0 +1,7 @@
+{
+  "observed_cv_accuracy": 0.45703125,
+  "permutations": 200,
+  "permuted_mean": 0.10958984375,
+  "permuted_max": 0.1796875,
+  "p_value": 0.004975124378109453
+}

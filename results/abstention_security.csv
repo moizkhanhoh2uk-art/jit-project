@@ -1,0 +1,8 @@
+threshold,rejected,false_allow,false_deny,wrong_prediction,wrong_prediction_blocked,allowed_wrong_action,legitimate_support
+0.0,0,27,67,329,275,54,34
+0.2,31,20,82,357,317,40,26
+0.3,60,0,120,420,420,0,8
+0.4,64,0,128,448,448,0,0
+0.5,64,0,128,448,448,0,0
+0.6,64,0,128,448,448,0,0
+0.7,64,0,128,448,448,0,0

@@ -1,0 +1,7 @@
+  method  accuracy  macro_precision  macro_recall  macro_f1  n
+ Keyword  0.125000         0.016667      0.125000  0.029412 64
+TFIDF_LR  0.265625         0.172244      0.265625  0.202327 64
+          false_allow  false_deny  wrong_prediction  wrong_prediction_blocked  allowed_wrong_action  legitimate_support
+method                                                                                                                 
+Keyword            20          92               392                       352                    40                  16
+TFIDF_LR           27          67               329                       275                    54                  34

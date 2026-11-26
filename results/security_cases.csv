@@ -1,0 +1,897 @@
+method,id,true_action,predicted_action,profile,expected_allow,actual_allow,false_allow,false_deny,wrong_prediction,wrong_prediction_blocked,allowed_wrong_action,legitimate_support,reason
+Keyword,d024,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d024,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d024,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+Keyword,d024,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+Keyword,d024,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d024,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d024,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+Keyword,d025,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d025,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d025,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+Keyword,d025,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+Keyword,d025,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d025,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d025,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+Keyword,d026,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d026,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d026,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+Keyword,d026,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+Keyword,d026,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d026,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d026,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+Keyword,d027,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d027,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d027,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+Keyword,d027,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+Keyword,d027,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d027,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d027,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+Keyword,d028,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d028,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d028,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+Keyword,d028,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+Keyword,d028,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d028,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d028,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+Keyword,d029,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d029,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d029,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+Keyword,d029,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+Keyword,d029,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d029,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d029,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+Keyword,d030,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d030,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d030,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+Keyword,d030,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+Keyword,d030,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d030,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d030,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+Keyword,d031,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d031,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+Keyword,d031,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+Keyword,d031,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+Keyword,d031,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d031,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+Keyword,d031,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+Keyword,d056,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d056,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d056,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d056,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d056,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d056,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d056,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d057,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d057,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d057,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d057,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d057,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d057,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d057,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d058,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d058,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d058,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d058,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d058,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d058,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d058,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d059,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d059,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d059,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d059,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d059,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d059,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d059,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d060,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d060,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d060,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d060,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d060,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d060,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d060,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d061,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d061,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d061,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d061,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d061,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d061,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d061,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d062,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d062,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d062,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d062,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d062,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d062,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d062,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d063,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d063,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d063,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d063,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d063,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d063,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d063,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d088,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d088,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d088,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d088,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d088,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d088,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d088,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d089,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d089,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d089,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d089,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d089,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d089,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d089,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d090,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d090,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d090,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d090,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d090,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d090,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d090,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d091,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d091,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d091,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d091,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d091,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d091,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d091,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d092,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d092,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d092,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d092,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d092,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d092,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d092,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d093,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d093,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d093,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d093,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d093,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d093,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d093,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d094,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d094,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d094,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d094,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d094,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d094,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d094,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d095,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d095,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d095,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d095,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d095,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d095,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d095,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d120,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d120,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+Keyword,d120,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+Keyword,d120,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d120,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d120,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d120,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d121,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d121,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+Keyword,d121,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+Keyword,d121,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d121,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d121,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d121,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d122,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d122,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+Keyword,d122,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+Keyword,d122,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d122,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d122,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d122,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d123,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d123,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+Keyword,d123,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+Keyword,d123,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d123,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d123,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d123,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d124,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d124,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+Keyword,d124,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+Keyword,d124,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d124,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d124,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d124,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d125,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d125,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+Keyword,d125,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+Keyword,d125,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d125,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d125,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d125,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d126,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d126,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+Keyword,d126,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+Keyword,d126,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d126,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d126,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d126,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d127,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d127,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+Keyword,d127,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+Keyword,d127,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d127,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d127,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d127,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d152,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d152,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d152,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d152,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d152,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d152,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d152,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d153,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d153,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d153,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d153,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d153,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d153,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d153,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d154,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d154,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d154,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d154,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d154,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d154,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d154,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d155,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d155,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d155,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d155,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d155,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d155,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d155,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d156,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d156,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d156,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d156,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d156,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d156,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d156,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d157,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d157,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d157,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d157,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d157,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d157,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d157,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d158,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d158,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d158,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d158,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d158,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d158,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d158,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d159,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d159,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d159,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d159,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d159,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d159,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d159,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d184,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d184,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d184,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d184,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d184,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d184,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d184,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d185,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d185,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d185,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d185,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d185,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d185,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d185,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d186,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d186,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d186,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d186,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d186,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d186,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d186,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d187,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d187,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d187,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d187,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d187,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d187,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d187,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d188,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d188,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d188,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d188,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d188,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d188,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d188,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d189,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d189,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d189,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d189,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d189,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d189,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d189,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d190,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d190,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d190,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d190,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d190,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d190,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d190,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d191,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d191,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d191,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d191,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d191,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d191,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d191,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d216,ec2:RebootInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d216,ec2:RebootInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d216,ec2:RebootInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d216,ec2:RebootInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d216,ec2:RebootInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d216,ec2:RebootInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d216,ec2:RebootInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d217,ec2:RebootInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d217,ec2:RebootInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d217,ec2:RebootInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d217,ec2:RebootInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d217,ec2:RebootInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d217,ec2:RebootInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d217,ec2:RebootInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d218,ec2:RebootInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d218,ec2:RebootInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d218,ec2:RebootInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d218,ec2:RebootInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d218,ec2:RebootInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d218,ec2:RebootInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d218,ec2:RebootInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d219,ec2:RebootInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d219,ec2:RebootInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d219,ec2:RebootInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d219,ec2:RebootInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d219,ec2:RebootInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d219,ec2:RebootInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d219,ec2:RebootInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d220,ec2:RebootInstances,ec2:StartInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d220,ec2:RebootInstances,ec2:StartInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d220,ec2:RebootInstances,ec2:StartInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d220,ec2:RebootInstances,ec2:StartInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d220,ec2:RebootInstances,ec2:StartInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d220,ec2:RebootInstances,ec2:StartInstances,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d220,ec2:RebootInstances,ec2:StartInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d221,ec2:RebootInstances,ec2:StartInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d221,ec2:RebootInstances,ec2:StartInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d221,ec2:RebootInstances,ec2:StartInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d221,ec2:RebootInstances,ec2:StartInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d221,ec2:RebootInstances,ec2:StartInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d221,ec2:RebootInstances,ec2:StartInstances,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d221,ec2:RebootInstances,ec2:StartInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d222,ec2:RebootInstances,ec2:StartInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d222,ec2:RebootInstances,ec2:StartInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d222,ec2:RebootInstances,ec2:StartInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d222,ec2:RebootInstances,ec2:StartInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d222,ec2:RebootInstances,ec2:StartInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d222,ec2:RebootInstances,ec2:StartInstances,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d222,ec2:RebootInstances,ec2:StartInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d223,ec2:RebootInstances,ec2:StartInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d223,ec2:RebootInstances,ec2:StartInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d223,ec2:RebootInstances,ec2:StartInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+Keyword,d223,ec2:RebootInstances,ec2:StartInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d223,ec2:RebootInstances,ec2:StartInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d223,ec2:RebootInstances,ec2:StartInstances,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d223,ec2:RebootInstances,ec2:StartInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d248,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d248,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d248,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d248,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d248,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d248,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d248,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d249,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d249,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d249,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d249,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d249,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d249,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d249,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d250,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d250,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d250,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d250,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d250,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d250,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d250,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d251,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d251,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d251,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d251,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d251,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d251,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d251,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d252,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d252,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d252,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d252,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d252,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d252,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d252,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d253,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d253,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d253,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d253,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d253,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d253,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d253,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d254,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d254,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d254,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d254,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d254,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d254,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d254,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+Keyword,d255,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+Keyword,d255,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+Keyword,d255,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+Keyword,d255,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+Keyword,d255,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d255,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+Keyword,d255,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d024,s3:GetObject,s3:PutObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d024,s3:GetObject,s3:PutObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d024,s3:GetObject,s3:PutObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d024,s3:GetObject,s3:PutObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d024,s3:GetObject,s3:PutObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d024,s3:GetObject,s3:PutObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d024,s3:GetObject,s3:PutObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d025,s3:GetObject,s3:PutObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d025,s3:GetObject,s3:PutObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d025,s3:GetObject,s3:PutObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d025,s3:GetObject,s3:PutObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d025,s3:GetObject,s3:PutObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d025,s3:GetObject,s3:PutObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d025,s3:GetObject,s3:PutObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d026,s3:GetObject,s3:PutObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d026,s3:GetObject,s3:PutObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d026,s3:GetObject,s3:PutObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d026,s3:GetObject,s3:PutObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d026,s3:GetObject,s3:PutObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d026,s3:GetObject,s3:PutObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d026,s3:GetObject,s3:PutObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d027,s3:GetObject,s3:PutObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d027,s3:GetObject,s3:PutObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d027,s3:GetObject,s3:PutObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d027,s3:GetObject,s3:PutObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d027,s3:GetObject,s3:PutObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d027,s3:GetObject,s3:PutObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d027,s3:GetObject,s3:PutObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d028,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d028,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d028,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d028,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d028,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d028,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d028,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d029,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d029,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d029,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d029,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d029,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d029,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d029,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d030,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d030,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d030,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d030,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d030,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d030,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d030,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d031,s3:GetObject,s3:GetObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d031,s3:GetObject,s3:GetObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d031,s3:GetObject,s3:GetObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d031,s3:GetObject,s3:GetObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d031,s3:GetObject,s3:GetObject,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d031,s3:GetObject,s3:GetObject,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d031,s3:GetObject,s3:GetObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d056,s3:PutObject,s3:PutObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d056,s3:PutObject,s3:PutObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d056,s3:PutObject,s3:PutObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d056,s3:PutObject,s3:PutObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d056,s3:PutObject,s3:PutObject,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d056,s3:PutObject,s3:PutObject,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d056,s3:PutObject,s3:PutObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d057,s3:PutObject,s3:PutObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d057,s3:PutObject,s3:PutObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d057,s3:PutObject,s3:PutObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d057,s3:PutObject,s3:PutObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d057,s3:PutObject,s3:PutObject,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d057,s3:PutObject,s3:PutObject,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d057,s3:PutObject,s3:PutObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d058,s3:PutObject,s3:PutObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d058,s3:PutObject,s3:PutObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d058,s3:PutObject,s3:PutObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d058,s3:PutObject,s3:PutObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d058,s3:PutObject,s3:PutObject,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d058,s3:PutObject,s3:PutObject,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d058,s3:PutObject,s3:PutObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d059,s3:PutObject,s3:PutObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d059,s3:PutObject,s3:PutObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d059,s3:PutObject,s3:PutObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d059,s3:PutObject,s3:PutObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d059,s3:PutObject,s3:PutObject,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d059,s3:PutObject,s3:PutObject,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d059,s3:PutObject,s3:PutObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d060,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d060,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d060,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d060,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d060,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d060,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d060,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d061,s3:PutObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d061,s3:PutObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d061,s3:PutObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d061,s3:PutObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d061,s3:PutObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d061,s3:PutObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d061,s3:PutObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d062,s3:PutObject,s3:PutObject,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d062,s3:PutObject,s3:PutObject,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d062,s3:PutObject,s3:PutObject,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d062,s3:PutObject,s3:PutObject,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d062,s3:PutObject,s3:PutObject,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d062,s3:PutObject,s3:PutObject,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d062,s3:PutObject,s3:PutObject,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d063,s3:PutObject,s3:DeleteObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d063,s3:PutObject,s3:DeleteObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d063,s3:PutObject,s3:DeleteObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d063,s3:PutObject,s3:DeleteObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d063,s3:PutObject,s3:DeleteObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d063,s3:PutObject,s3:DeleteObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d063,s3:PutObject,s3:DeleteObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d088,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d088,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d088,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d088,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d088,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d088,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d088,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d089,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d089,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d089,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d089,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d089,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d089,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d089,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d090,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d090,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d090,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d090,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d090,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d090,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d090,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d091,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d091,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d091,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d091,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d091,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d091,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d091,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d092,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d092,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d092,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d092,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d092,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d092,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d092,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d093,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d093,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d093,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d093,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d093,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d093,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d093,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d094,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d094,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d094,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d094,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d094,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d094,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d094,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d095,s3:DeleteObject,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d095,s3:DeleteObject,s3:GetObject,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d095,s3:DeleteObject,s3:GetObject,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d095,s3:DeleteObject,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d095,s3:DeleteObject,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d095,s3:DeleteObject,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d095,s3:DeleteObject,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d120,s3:ListBucket,ec2:DescribeInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d120,s3:ListBucket,ec2:DescribeInstances,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d120,s3:ListBucket,ec2:DescribeInstances,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d120,s3:ListBucket,ec2:DescribeInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d120,s3:ListBucket,ec2:DescribeInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d120,s3:ListBucket,ec2:DescribeInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d120,s3:ListBucket,ec2:DescribeInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d121,s3:ListBucket,ec2:DescribeInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d121,s3:ListBucket,ec2:DescribeInstances,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d121,s3:ListBucket,ec2:DescribeInstances,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d121,s3:ListBucket,ec2:DescribeInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d121,s3:ListBucket,ec2:DescribeInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d121,s3:ListBucket,ec2:DescribeInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d121,s3:ListBucket,ec2:DescribeInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d122,s3:ListBucket,s3:PutObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d122,s3:ListBucket,s3:PutObject,broad,True,False,False,True,True,True,False,False,object resource required
+TFIDF_LR,d122,s3:ListBucket,s3:PutObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+TFIDF_LR,d122,s3:ListBucket,s3:PutObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d122,s3:ListBucket,s3:PutObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d122,s3:ListBucket,s3:PutObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d122,s3:ListBucket,s3:PutObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d123,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d123,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+TFIDF_LR,d123,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+TFIDF_LR,d123,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d123,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d123,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d123,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d124,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d124,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+TFIDF_LR,d124,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+TFIDF_LR,d124,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d124,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d124,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d124,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d125,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d125,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+TFIDF_LR,d125,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+TFIDF_LR,d125,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d125,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d125,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d125,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d126,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d126,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+TFIDF_LR,d126,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+TFIDF_LR,d126,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d126,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d126,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d126,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d127,s3:ListBucket,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d127,s3:ListBucket,s3:GetObject,broad,True,False,False,True,True,True,False,False,object resource required
+TFIDF_LR,d127,s3:ListBucket,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,object resource required
+TFIDF_LR,d127,s3:ListBucket,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d127,s3:ListBucket,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d127,s3:ListBucket,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d127,s3:ListBucket,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d152,ec2:DescribeInstances,ec2:RebootInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d152,ec2:DescribeInstances,ec2:RebootInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d152,ec2:DescribeInstances,ec2:RebootInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d152,ec2:DescribeInstances,ec2:RebootInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d152,ec2:DescribeInstances,ec2:RebootInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d152,ec2:DescribeInstances,ec2:RebootInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d152,ec2:DescribeInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d153,ec2:DescribeInstances,ec2:RebootInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d153,ec2:DescribeInstances,ec2:RebootInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d153,ec2:DescribeInstances,ec2:RebootInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d153,ec2:DescribeInstances,ec2:RebootInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d153,ec2:DescribeInstances,ec2:RebootInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d153,ec2:DescribeInstances,ec2:RebootInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d153,ec2:DescribeInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d154,ec2:DescribeInstances,ec2:RebootInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d154,ec2:DescribeInstances,ec2:RebootInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d154,ec2:DescribeInstances,ec2:RebootInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d154,ec2:DescribeInstances,ec2:RebootInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d154,ec2:DescribeInstances,ec2:RebootInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d154,ec2:DescribeInstances,ec2:RebootInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d154,ec2:DescribeInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d155,ec2:DescribeInstances,ec2:RebootInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d155,ec2:DescribeInstances,ec2:RebootInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d155,ec2:DescribeInstances,ec2:RebootInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d155,ec2:DescribeInstances,ec2:RebootInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d155,ec2:DescribeInstances,ec2:RebootInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d155,ec2:DescribeInstances,ec2:RebootInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d155,ec2:DescribeInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d156,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d156,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d156,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d156,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d156,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d156,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d156,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d157,ec2:DescribeInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d157,ec2:DescribeInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d157,ec2:DescribeInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d157,ec2:DescribeInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d157,ec2:DescribeInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d157,ec2:DescribeInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d157,ec2:DescribeInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d158,ec2:DescribeInstances,s3:PutObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d158,ec2:DescribeInstances,s3:PutObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d158,ec2:DescribeInstances,s3:PutObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d158,ec2:DescribeInstances,s3:PutObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d158,ec2:DescribeInstances,s3:PutObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d158,ec2:DescribeInstances,s3:PutObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d158,ec2:DescribeInstances,s3:PutObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d159,ec2:DescribeInstances,s3:DeleteObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d159,ec2:DescribeInstances,s3:DeleteObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d159,ec2:DescribeInstances,s3:DeleteObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d159,ec2:DescribeInstances,s3:DeleteObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d159,ec2:DescribeInstances,s3:DeleteObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d159,ec2:DescribeInstances,s3:DeleteObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d159,ec2:DescribeInstances,s3:DeleteObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d184,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d184,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d184,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d184,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d184,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d184,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d184,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d185,ec2:StartInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d185,ec2:StartInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d185,ec2:StartInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d185,ec2:StartInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d185,ec2:StartInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d185,ec2:StartInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d185,ec2:StartInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d186,ec2:StartInstances,s3:PutObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d186,ec2:StartInstances,s3:PutObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d186,ec2:StartInstances,s3:PutObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d186,ec2:StartInstances,s3:PutObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d186,ec2:StartInstances,s3:PutObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d186,ec2:StartInstances,s3:PutObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d186,ec2:StartInstances,s3:PutObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d187,ec2:StartInstances,s3:DeleteObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d187,ec2:StartInstances,s3:DeleteObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d187,ec2:StartInstances,s3:DeleteObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d187,ec2:StartInstances,s3:DeleteObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d187,ec2:StartInstances,s3:DeleteObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d187,ec2:StartInstances,s3:DeleteObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d187,ec2:StartInstances,s3:DeleteObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d188,ec2:StartInstances,ec2:StartInstances,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d188,ec2:StartInstances,ec2:StartInstances,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d188,ec2:StartInstances,ec2:StartInstances,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d188,ec2:StartInstances,ec2:StartInstances,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d188,ec2:StartInstances,ec2:StartInstances,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d188,ec2:StartInstances,ec2:StartInstances,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d188,ec2:StartInstances,ec2:StartInstances,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d189,ec2:StartInstances,ec2:StartInstances,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d189,ec2:StartInstances,ec2:StartInstances,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d189,ec2:StartInstances,ec2:StartInstances,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d189,ec2:StartInstances,ec2:StartInstances,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d189,ec2:StartInstances,ec2:StartInstances,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d189,ec2:StartInstances,ec2:StartInstances,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d189,ec2:StartInstances,ec2:StartInstances,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d190,ec2:StartInstances,ec2:StartInstances,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d190,ec2:StartInstances,ec2:StartInstances,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d190,ec2:StartInstances,ec2:StartInstances,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d190,ec2:StartInstances,ec2:StartInstances,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d190,ec2:StartInstances,ec2:StartInstances,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d190,ec2:StartInstances,ec2:StartInstances,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d190,ec2:StartInstances,ec2:StartInstances,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d191,ec2:StartInstances,ec2:StartInstances,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d191,ec2:StartInstances,ec2:StartInstances,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d191,ec2:StartInstances,ec2:StartInstances,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d191,ec2:StartInstances,ec2:StartInstances,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d191,ec2:StartInstances,ec2:StartInstances,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d191,ec2:StartInstances,ec2:StartInstances,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d191,ec2:StartInstances,ec2:StartInstances,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d216,ec2:RebootInstances,ec2:RebootInstances,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d216,ec2:RebootInstances,ec2:RebootInstances,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d216,ec2:RebootInstances,ec2:RebootInstances,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d216,ec2:RebootInstances,ec2:RebootInstances,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d216,ec2:RebootInstances,ec2:RebootInstances,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d216,ec2:RebootInstances,ec2:RebootInstances,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d216,ec2:RebootInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d217,ec2:RebootInstances,ec2:RebootInstances,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d217,ec2:RebootInstances,ec2:RebootInstances,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d217,ec2:RebootInstances,ec2:RebootInstances,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d217,ec2:RebootInstances,ec2:RebootInstances,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d217,ec2:RebootInstances,ec2:RebootInstances,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d217,ec2:RebootInstances,ec2:RebootInstances,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d217,ec2:RebootInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d218,ec2:RebootInstances,ec2:RebootInstances,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d218,ec2:RebootInstances,ec2:RebootInstances,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d218,ec2:RebootInstances,ec2:RebootInstances,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d218,ec2:RebootInstances,ec2:RebootInstances,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d218,ec2:RebootInstances,ec2:RebootInstances,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d218,ec2:RebootInstances,ec2:RebootInstances,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d218,ec2:RebootInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d219,ec2:RebootInstances,ec2:RebootInstances,narrow,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d219,ec2:RebootInstances,ec2:RebootInstances,broad,True,True,False,False,False,False,False,True,trusted grant permits action and resource
+TFIDF_LR,d219,ec2:RebootInstances,ec2:RebootInstances,other_actions_only,False,False,False,False,False,False,False,False,action not permitted
+TFIDF_LR,d219,ec2:RebootInstances,ec2:RebootInstances,unapproved,False,False,False,False,False,False,False,False,approval missing
+TFIDF_LR,d219,ec2:RebootInstances,ec2:RebootInstances,expired,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d219,ec2:RebootInstances,ec2:RebootInstances,future,False,False,False,False,False,False,False,False,outside grant window
+TFIDF_LR,d219,ec2:RebootInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,False,False,False,False,resource not permitted
+TFIDF_LR,d220,ec2:RebootInstances,ec2:StartInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d220,ec2:RebootInstances,ec2:StartInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d220,ec2:RebootInstances,ec2:StartInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d220,ec2:RebootInstances,ec2:StartInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d220,ec2:RebootInstances,ec2:StartInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d220,ec2:RebootInstances,ec2:StartInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d220,ec2:RebootInstances,ec2:StartInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d221,ec2:RebootInstances,ec2:StartInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d221,ec2:RebootInstances,ec2:StartInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d221,ec2:RebootInstances,ec2:StartInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d221,ec2:RebootInstances,ec2:StartInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d221,ec2:RebootInstances,ec2:StartInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d221,ec2:RebootInstances,ec2:StartInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d221,ec2:RebootInstances,ec2:StartInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d222,ec2:RebootInstances,ec2:StartInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d222,ec2:RebootInstances,ec2:StartInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d222,ec2:RebootInstances,ec2:StartInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d222,ec2:RebootInstances,ec2:StartInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d222,ec2:RebootInstances,ec2:StartInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d222,ec2:RebootInstances,ec2:StartInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d222,ec2:RebootInstances,ec2:StartInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d223,ec2:RebootInstances,ec2:StartInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d223,ec2:RebootInstances,ec2:StartInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d223,ec2:RebootInstances,ec2:StartInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d223,ec2:RebootInstances,ec2:StartInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d223,ec2:RebootInstances,ec2:StartInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d223,ec2:RebootInstances,ec2:StartInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d223,ec2:RebootInstances,ec2:StartInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d248,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d248,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d248,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d248,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d248,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d248,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d248,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d249,ec2:StopInstances,s3:GetObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d249,ec2:StopInstances,s3:GetObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d249,ec2:StopInstances,s3:GetObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d249,ec2:StopInstances,s3:GetObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d249,ec2:StopInstances,s3:GetObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d249,ec2:StopInstances,s3:GetObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d249,ec2:StopInstances,s3:GetObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d250,ec2:StopInstances,s3:PutObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d250,ec2:StopInstances,s3:PutObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d250,ec2:StopInstances,s3:PutObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d250,ec2:StopInstances,s3:PutObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d250,ec2:StopInstances,s3:PutObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d250,ec2:StopInstances,s3:PutObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d250,ec2:StopInstances,s3:PutObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d251,ec2:StopInstances,s3:DeleteObject,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d251,ec2:StopInstances,s3:DeleteObject,broad,True,False,False,True,True,True,False,False,service mismatch
+TFIDF_LR,d251,ec2:StopInstances,s3:DeleteObject,other_actions_only,False,False,False,False,True,True,False,False,service mismatch
+TFIDF_LR,d251,ec2:StopInstances,s3:DeleteObject,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d251,ec2:StopInstances,s3:DeleteObject,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d251,ec2:StopInstances,s3:DeleteObject,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d251,ec2:StopInstances,s3:DeleteObject,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d252,ec2:StopInstances,ec2:RebootInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d252,ec2:StopInstances,ec2:RebootInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d252,ec2:StopInstances,ec2:RebootInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d252,ec2:StopInstances,ec2:RebootInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d252,ec2:StopInstances,ec2:RebootInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d252,ec2:StopInstances,ec2:RebootInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d252,ec2:StopInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d253,ec2:StopInstances,ec2:RebootInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d253,ec2:StopInstances,ec2:RebootInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d253,ec2:StopInstances,ec2:RebootInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d253,ec2:StopInstances,ec2:RebootInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d253,ec2:StopInstances,ec2:RebootInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d253,ec2:StopInstances,ec2:RebootInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d253,ec2:StopInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d254,ec2:StopInstances,ec2:RebootInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d254,ec2:StopInstances,ec2:RebootInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d254,ec2:StopInstances,ec2:RebootInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d254,ec2:StopInstances,ec2:RebootInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d254,ec2:StopInstances,ec2:RebootInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d254,ec2:StopInstances,ec2:RebootInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d254,ec2:StopInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
+TFIDF_LR,d255,ec2:StopInstances,ec2:RebootInstances,narrow,True,False,False,True,True,True,False,False,action not permitted
+TFIDF_LR,d255,ec2:StopInstances,ec2:RebootInstances,broad,True,True,False,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d255,ec2:StopInstances,ec2:RebootInstances,other_actions_only,False,True,True,False,True,False,True,False,trusted grant permits action and resource
+TFIDF_LR,d255,ec2:StopInstances,ec2:RebootInstances,unapproved,False,False,False,False,True,True,False,False,approval missing
+TFIDF_LR,d255,ec2:StopInstances,ec2:RebootInstances,expired,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d255,ec2:StopInstances,ec2:RebootInstances,future,False,False,False,False,True,True,False,False,outside grant window
+TFIDF_LR,d255,ec2:StopInstances,ec2:RebootInstances,wrong_resource,False,False,False,False,True,True,False,False,resource not permitted
